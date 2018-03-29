@@ -1,0 +1,136 @@
+html {
+  font-family: sans-serif;
+}
+
+nav {
+    padding: 32px;
+    font-family: monospace;
+}
+
+nav .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    vertical-align: middle;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    height: 90px;
+    line-height: 90px;
+    color: #010101;
+    font-weight: 900;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 0 40px;
+    transition: color 250ms;
+}
+
+nav ul li a:hover {
+    color: #d02120;
+}
+
+.about {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: monospace;
+    width: 600px;
+    margin: 150px auto;
+}
+
+.main {
+
+}
+
+.main img {
+    width: 700px;
+    margin: 100px auto 40px;
+    display: block;
+}
+
+.main a {
+    display: block;
+    text-decoration: none;
+    color: #d02120;
+    font-family: monospace;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.collection {
+    
+}
+
+.collection ul {
+    list-style: none;
+    text-align: center;
+}
+
+.collection ul li {
+    display: block;
+    margin-top: 98px;
+    padding-bottom: 100px;
+}
+
+.collection .item {
+
+}
+
+.collection .item .description {
+    vertical-align: middle;
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.collection .item .description .description__top {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.collection .item .description .description__bottom {
+    margin-top: 48px;
+    font-family: monospace;
+}
+
+.collection .item img {
+    vertical-align: middle;
+    width: 300px;
+    display: inline-block;
+}
+
+.geo {
+    font-family: monospace;
+}
+
+.geo ul {
+    list-style: none;
+    width: 400px;
+    display: block;
+    margin: 100px auto;
+}
+
+.geo ul li {
+    margin-top: 200px;
+}
+.geo ul .map-link {
+    text-decoration: none;
+    color: #d02120;
+}
+
+.geo ul .map-link:visited {
+    color: #d02120;
+}
+
